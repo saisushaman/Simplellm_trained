@@ -26,7 +26,7 @@ SimpleLLM is a lightweight transformer-based language model designed to train on
 
 - To train the model, run:
 
-** python simllm.py ** 
+**python simllm.py** 
 
 ## Fixes and Improvements
 
