@@ -20,7 +20,7 @@ SimpleLLM is a lightweight transformer-based language model designed to train on
 
 - Ensure you have Python installed (preferably version 3.8 or later). Then, install the required dependencies:
 
-** pip install torch transformers datasets tqdm ** 
+**pip install torch transformers datasets tqdm** 
 
 - Running the Training Script
 
@@ -33,7 +33,8 @@ SimpleLLM is a lightweight transformer-based language model designed to train on
 - Several key changes were made to resolve previous errors and enhance performance:
 
 - Position Embedding Fix: Added a modulo operation to ensure positions never exceed the maximum length:
-  ** positions = positions % self.max_length ** 
+  
+  **positions = positions % self.max_length** 
 
 - positions = positions % self.max_length
 
@@ -51,7 +52,7 @@ The error occurred because the positions tensor exceeded the maximum sequence le
 
 After training, the model generates text based on a given prompt. Example:
 
-** The quick brown fox jumps over the lazy dog. The... ** 
+**The quick brown fox jumps over the lazy dog. The...** 
 
 ## Future Improvements
 
